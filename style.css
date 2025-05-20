@@ -1,0 +1,114 @@
+body {
+margin: 0;
+background: #ffffff;
+font-family: sans-serif;
+text-align: center;
+color: #000;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+background: #f0f0f0;
+padding: 10px 20px;
+}
+
+.logo {
+width: 40px;
+height: 20px;
+background: #ccc;
+}
+
+.nav {
+display: flex;
+gap: 20px;
+}
+
+.nav-item {
+width: 90px;
+height: 25px;
+background: #ddd;
+border-radius: 5em;
+}
+
+.hero {
+display: flex;
+justify-content: flex-end;
+padding: 20px;
+height: 550px;
+background: #f5f5f5;
+align-items: center;
+}
+
+.search {
+width: 200px;
+height: 40px;
+background: #e0e0e0;
+}
+
+.cards-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+padding: 20px;
+}
+
+.card {
+height: 180px;
+background: #eaeaea;
+}
+
+.featured {
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+.featured-large {
+flex: 2;
+height: 550px;
+background: #e2e2e2;
+}
+
+.featured-small {
+flex: 1;
+background: #f0f0f0;
+height: 550px;
+}
+
+.bottom-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+padding: 20px;
+}
+
+.footer {
+background: #f0f0f0;
+padding: 20px;
+text-align: center;
+}
+
+.footer-links {
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-bottom: 10px;
+}
+
+.footer-links a {
+color: #555;
+text-decoration: none;
+font-size: 14px;
+}
+
+.footer-copy {
+font-size: 12px;
+color: #888;
+}
